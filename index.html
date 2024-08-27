@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>@Apvigoa</title>
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" class="header__checkbox" id="open-menu">
+        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+        <div class="header__logo-container">
+            <img src="./Files/logo.png" alt="header logo" class="header__logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#">Home</a></li>
+                <li class="header__nav-item"><a href="#">About</a></li>
+                <li class="header__nav-item"><a href="#">Portfolio</a></li>
+                <li class="header__nav-item"><a href="#abajo">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile">
+        <div class="profile__wrapper">
+            <div class="profile__img-container">
+                <img src="./Files/profile.jpeg" alt="User image" class="profile__img">
+            </div>
+            <div class="profile__data-container">
+                <div class="profile-data">
+                    <div class="profile__description">
+                        <h1>Alejandro Pérez-Vigo</h1>
+                        <p>I am a backend web developer skilled in JavaScript and React. I build efficient web applications and robust backend systems. Currently, I am learning Web3 and Solidity, driven by my interest in blockchain technology. I thrive in collaborative environments.</p>
+                    </div>
+                    <div class="profile__skills-container">
+                        <h2>SKILLS</h2>
+                        <ul>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">80%</div>
+                                </div>
+                                <span class="profile__skill-name">HTML</span>
+                            </li>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">80%</div>
+                                </div>
+                                <span class="profile__skill-name">CSS</span>
+                            </li>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--90">90%</div>
+                                </div>
+                                <span class="profile__skill-name">JS</span>
+                            </li>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">80%</div>
+                                </div>
+                                <span class="profile__skill-name">SQL</span>
+                            </li>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--60">60%</div>
+                                </div>
+                                <span class="profile__skill-name">SOLIDITY</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="portfolio">
+        <h2 class="portfolio__title">PORTFOLIO SECTION</h2>
+        <div class="portfolio__project-container">
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+        </div>
+    </section>
+    <section class="form" id="abajo">
+        <h2 class="form__tittle">CONTACT</h2>
+        <form action="#" class="form__form">      
+            <div class="form__input-container">
+                <label> Name
+                    <input type="text" placeholder="John Marston">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label> Mail
+                    <input type="email" placeholder="yourmail@here.com">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label> Message
+                    <textarea name="" id="" placeholder="Write here..."></textarea>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
